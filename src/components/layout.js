@@ -29,12 +29,6 @@ const Layout = props => {
               <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Home</Link>
               </li>
-              <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
-              </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
-              </li>
             </ul>
           </nav>
           <div className="site-head-center">
@@ -45,7 +39,7 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/bozangel.es/"
                 title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -62,15 +56,7 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
-        </a>
+        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link>
       </footer>
     </div>
   );
