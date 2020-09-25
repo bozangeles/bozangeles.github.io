@@ -2,8 +2,7 @@ module.exports = {
   name: "Boz Angeles",
   shortName: "Boz Angeles",
   description: "Bozeman's Best and Brightest",
-  url: "https://gatsby-london.netlify.com", // Domain of your site without prefix!
+  url: "https://bozangel.es",
   prefix: "/",
-  author: "Bozeangeles",
-  twitter: "bozeangel.es"
+  author: "Bozeangeles"
 };

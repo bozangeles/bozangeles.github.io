@@ -27,6 +27,7 @@ body {
   background: var(--color-bg);
   transition: background 0.3s ease-out;
   transition-delay: 0.25;
+  text-color: var(--color-base);
 }
 
 .img {

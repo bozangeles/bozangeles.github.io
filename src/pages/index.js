@@ -13,7 +13,7 @@ const BlogIndex = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="⛰" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO title="⛰" keywords={[`bozeman`, `bozangeles`, `boz angeles`]} />
       <div className="home">
         {data.site.siteMetadata.description && (
           <header className="page-head">
@@ -23,6 +23,7 @@ const BlogIndex = ({ data }, location) => {
           </header>
         )}
       </div>
+      <h2 className="subtitle">Be here soon</h2>
     </Layout>
   );
 };
