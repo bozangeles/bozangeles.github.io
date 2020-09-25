@@ -13,10 +13,7 @@ const ElementsPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO
-        title="All posts"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-      />
+      <SEO title="🏔" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
