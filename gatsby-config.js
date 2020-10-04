@@ -89,6 +89,13 @@ module.exports = {
         icon: `static/favicon-32x32.png`
       }
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-179558395-1",
+        head: true
+      }
+    },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`
