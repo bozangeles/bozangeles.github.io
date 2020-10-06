@@ -131,7 +131,7 @@ a:hover {
 }
 b,
 strong {
-  font-weight: bold;
+  font-weight: normal;
 }
 i,
 em,
@@ -265,9 +265,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.5rem;
   line-height: 1.6em;
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
-  letter-spacing: 0;
   text-rendering: optimizeLegibility;
   background: #fff;
 
@@ -315,7 +314,7 @@ blockquote {
 blockquote p {
   margin: 0.8em 0;
   font-size: 1.2em;
-  font-weight: 300;
+  font-weight: normal;
 }
 
 blockquote small {
@@ -330,7 +329,7 @@ blockquote small:before {
 }
 
 blockquote cite {
-  font-weight: bold;
+  font-weight: normal;
 }
 blockquote cite a {
   font-weight: normal;
@@ -355,14 +354,14 @@ h5,
 h6 {
   margin-top: 0;
   line-height: 1.4;
-  font-weight: 700;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
 }
 
 h1 {
   margin: 0 0 0.5em 0;
   font-size: 5.7rem;
-  font-weight: 800;
+  font-weight: normal;
 }
 @media (max-width: 500px) {
   h1 {
